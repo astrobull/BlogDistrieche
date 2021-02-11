@@ -1,37 +1,48 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>hello, world!</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i,900,900i">
+        <link rel="stylesheet" href="styles/reset.css">
+        <link rel="stylesheet" href="styles/-debug.css">
+		<link rel="stylesheet" href="styles/article.css">
+		<link rel="stylesheet" href="styles/article-figure.css">
+		<link rel="stylesheet" href="styles/article-text.css">
+		<link rel="stylesheet" href="styles/article-share.css">
+	</head>
+    <body>
+		<article id="the-cosmos">
+			<h1><a href="#the-cosmos">The <em>Cosmos</em> is all there is</a></h1>
+			<h2>Or ever was, or ever will be</h2>
 
-You can use the [editor on GitHub](https://github.com/astrobull/BlogDistrieche/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+			<time datetime="03-09-2014">MAR. 9, 2014</time>
+			<p>
+				<em>A generation ago</em>, the astronomer <a href="https://en.wikipedia.org/wiki/carl_sagan">Carl Sagan</a> stood here and launched hundreds of millions of us on a great adventure the exploration of the universe revealed by science.
+				It's time to get going again.
+				We're about to begin a journey that will take us from the infinitesimal to the infinite, from the dawn of time to the distant future.
+				We'll explore galaxies and suns and worlds, surf the gravity waves of space-time, encounter beings that live in fire and ice, explore the planets of stars that never die, discover atoms as massive as suns and universes smaller than atoms.
+			</p>
+			
+			<figure class="size-4">
+				<img src="https://mikeorzen.com/wp-content/uploads/2015/10/cosmos.jpg">
+			</figure>
+			<figcaption><p>The <em>Cosmos</em>.</p></figcaption>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/astrobull/BlogDistrieche/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+			<h3>COSMOS IS ALSO A STORY ABOUT US</h3>
+			<p>
+				It's the saga of how wandering bands of hunters and gatherers found their way to the stars, one adventure with many heroes.
+				To make this journey, we'll need imagination.
+				But imagination alone is not enough because the reality of nature is far more wondrous than anything we can imagine.
+				This adventure is made possible by generations of searchers strictly adhering to a simple set of rules test ideas by experiment and observation, build on those ideas that pass the test, reject the ones that fail, follow the evidence wherever it leads and question everything.
+				<strong>Accept these terms, and the cosmos is yours.</strong>
+			</p>
+			
+			<div class="share">
+				<a href=""><img src="images/rebels.svg"></a>
+				<a href=""><img src="images/empire.svg"></a>
+			</div>
+		</article>
+    </body>
+</html>
